@@ -1,0 +1,174 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: century Gothic;
+}
+
+header{
+	
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.7s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: red;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+.nav
+{
+	float: right;
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%
+	transform: translate(-50%,-50%);
+}
+
+.title h1{
+	color: #fff
+	font-size: 70px;
+}
+
+.button{
+	position: absolute;
+	top: 70%;
+	left:15%;
+	transform: translate(-50%,-50%);
+}
+
+.btn{
+	border: 1px solid #fff;
+	padding: 10px 30px;         
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: red;
+}
+.content
+{
+	position: fixed;
+	top: 50px;
+	left:35px;
+	text-align: center;
+}
+
+.section{
+	position: absolute;
+	width: 100%
+	height:150vh;
+}
+
+.header{
+	height: 100vh;
+}
+
+.video-background{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: 700px;
+	z-index: -1;
+}
+.picture img
+{
+	position: absolute;
+	left:20px;
+	top:30px;
+	width: 150px;
+	height: auto;
+}
+.pic1 img
+{
+ 	
+	left:20px;
+	top:30px;
+	width: 200px;
+	height: 300px;	
+}
+
+@media (min-aspect-ratio:16/9){
+	.video-background{
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio:16/9){
+	.video-background{
+		width: auto;
+		height: 700px;
+	}
+}
+
+
+	table
+	{
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top:170%;
+		left: 25%;
+
+	}
+	footer
+{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background: #fff;	
+	height: 40px;
+	opacity: .5;
+	
+}
+footer li
+{
+	color: #111;
+	list-style: none;
+}
+.main-content
+{
+	display: flex;
+}
+.main-content .box
+{
+	flex-basis: 100%;
+}
+
+	
